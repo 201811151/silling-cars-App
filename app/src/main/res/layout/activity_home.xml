@@ -23,34 +23,24 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="176dp"
         android:layout_height="85dp"
+        android:layout_marginStart="16dp"
         android:layout_marginBottom="480dp"
         android:background="@drawable/cat_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.903"
+        app:layout_constraintVertical_bias="0.861"
         tools:ignore="ExtraText,MissingConstraints">
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="74dp"
-            android:layout_height="63dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/mm"
-            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="98dp"
-            android:layout_height="45dp"
-            android:layout_marginStart="76dp"
+            android:layout_width="170dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="24dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="casual"
             android:text="Mercedes"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -61,7 +51,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="177dp"
         android:layout_height="79dp"
-        android:layout_marginStart="232dp"
+        android:layout_marginStart="216dp"
         android:layout_marginBottom="508dp"
         android:background="@drawable/cat_background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,26 +62,16 @@
             android:id="@+id/textView6"
             android:layout_width="98dp"
             android:layout_height="45dp"
-            android:layout_marginStart="88dp"
+            android:layout_marginStart="48dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="casual"
             android:text="Toyota"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints" />
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="78dp"
-            android:layout_height="66dp"
-            app:srcCompat="@drawable/tyo"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="12dp"
-            tools:layout_editor_absoluteY="6dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout

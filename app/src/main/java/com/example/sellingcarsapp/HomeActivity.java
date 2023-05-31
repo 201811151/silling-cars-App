@@ -38,7 +38,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void  LoginActivity1(){
-        Intent intent=new Intent(HomeActivity  .this, MainActivity .class);
+        Intent intent=new Intent(HomeActivity  .this, MercedesActivity  .class);
         startActivity(intent);
     }
 }

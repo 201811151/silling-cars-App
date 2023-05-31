@@ -28,9 +28,9 @@ public class LoginActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (UserName.getText().toString().equals("Zumurd") && password.getText().toString().equals("12345")) {
+                if (UserName.getText().toString().equals("User") && password.getText().toString().equals("1234")) {
                     Intent intent =new Intent(LoginActivity.this,HomeActivity.class );
-                    startActivity(intent );
+                    startActivity(intent);
                 }else{
                     Toast.makeText(LoginActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
                 }
